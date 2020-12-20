@@ -8,10 +8,10 @@ fi
 
 case `hostname` in
     login*)
-        _role=jails/login 
+        _role=jails/misc/login 
         ;;
     workstation*)
-        _role=jails/workstation
+        _role=jails/misc/workstation
         ;;
     *)
         ;;
