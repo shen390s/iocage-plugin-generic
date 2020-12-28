@@ -1,6 +1,6 @@
 #!/bin/sh
 
-_apply=/root/bin/apply_role.sh
+_apply=/root/iocage_tools/bin/apply_role.sh
 if [ ! -f $_apply ]; then
     echo Can not find $_apply
     exit 1
